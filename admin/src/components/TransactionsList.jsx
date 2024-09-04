@@ -55,9 +55,9 @@ const TransactionsList = () => {
         <table className="min-w-full border border-gray-300 bg-white shadow-lg rounded-lg">
           <thead className="bg-gradient-to-br from-gray-800 via-pink-600 to-gray-800 border-b">
             <tr>
-              <th className="py-2 px-4 text-left text-white">Transaction ID</th>
-              <th className="py-2 px-4 text-left text-white">Date</th>
-              <th className="py-2 px-4 text-left text-white">Amount</th>
+              <th className="py-2 px-4 text-center text-white">Transaction ID</th>
+              <th className="py-2 px-4 text-center text-white">Date</th>
+              <th className="py-2 px-4 text-center text-white">Amount</th>
             </tr>
           </thead>
           <tbody>

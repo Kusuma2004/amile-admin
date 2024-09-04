@@ -1,0 +1,67 @@
+.Cards {
+  display: flex;
+  gap: 20px; /* Adjusted space between cards */
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.parentContainer {
+  flex: 1 1 200px; /* Smaller base size for each card */
+  max-width: 250px; /* Reduced maximum width for each card */
+}
+
+.Card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+  padding: 15px; /* Reduced padding inside the card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 160px; /* Reduced height for uniformity */
+}
+
+.radialBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center progress bar */
+  margin-bottom:3px; /* Space between progress bar and detail */
+}
+
+.titlecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom:5px; /* Space between title and progress bar */
+}
+
+.titlecontainer .title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.titlecontainer .icon {
+  width: 25px; /* Decreased size for the icon */
+  height: 25px;
+  color: #fff; /* Icon color */
+}
+
+.radialBar .CircularProgressbar {
+  width: 50px; /* Smaller size for CircularProgressbar */
+  height: 50px;
+  margin: 15px;
+}
+
+.CircularProgressbar-path {
+  stroke: white !important;
+  stroke-width: 8px !important; /* Reduced width */
+  filter: drop-shadow(1px 2px 4px white);
+}
+
+.CircularProgressbar-text {
+  fill: white !important;
+}
